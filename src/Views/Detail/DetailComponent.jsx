@@ -18,7 +18,7 @@ function Detail() {
 	recData().then(data=>setimage(data.find(e=> e.id === location.state)));  
 	// redirection if id img not existing or url look as detailPhoto
 	if(image==undefined){
-		navigate("Kasa/NotFound")
+		navigate("/NotFound")
 		return
 	}
    }, []);

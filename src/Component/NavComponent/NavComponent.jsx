@@ -4,7 +4,7 @@ import './NavComponent.css';
 function Navigation() {
     return ( 
        <nav>
-            <img src="/kasa/Images/LogoCasa.png" alt="logo Casa" />
+            <img src="/Images/LogoCasa.png" alt="logo Casa" />
             <div>
                   <Link to="/">Accueil</Link>
                   <Link to="/Propos"> Propos</Link>

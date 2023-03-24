@@ -8,7 +8,7 @@ function Propos() {
             <Navigation/>
             <main className="Propos">
                 <div className="picturePropos">
-                   <img src="/Kasa/Images/Paysage-Montagne.png" alt="paysage montagneux avec foret en premier plan" />
+                   <img src="/Images/Paysage-Montagne.png" alt="paysage montagneux avec foret en premier plan" />
                 </div>
                 <div className='articles'>
                     <Card titleCard={'Fiabilité'} descriptionCard={'Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.'}/>

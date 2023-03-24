@@ -20,7 +20,7 @@ function Accueil() {
             <Navigation/>
             <main className="Accueil">
                 <div className="pictureAccueil">
-                   <img  className="imageAccueil" src="/Kasa/Images/PhotoRecif.png" alt="recif" />
+                   <img  className="imageAccueil" src="/Images/photoRecif.png" alt="recif" />
                    <p>Chez vous, partout et ailleurs</p>
                 </div>
                    <ul className="listImageAcceuil">
