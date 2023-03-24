@@ -1,0 +1,135 @@
+.Detail{
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin: 0 auto;
+    width: 90%;
+}
+.authorProfile{
+            position: absolute;
+            top: -95px;
+            right: 10px;
+    }
+     .authorProfile img{
+        height: 70px;
+        border-radius: 50%;
+    }
+.Detail .tagStar{
+    position: relative;
+}
+.Detail ul{
+    list-style-type: none;
+}
+.Detail img:first-child{
+    width: 100%;
+    height: 415px;
+    border-radius: 20px;
+}
+.Detail h2, .Detail .location{
+    text-align: start;
+    margin: 0;
+}
+.Detail article h4,.Detail .articles,.Detail .listStar,.Detail .listTag,.Detail .tagStar{
+    display: flex;
+    flex-direction: row;
+}
+.Detail .tagStar,.Detail .articles{
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.Detail article{
+    width: 47%;
+}
+.Detail article h4{
+    justify-content: space-between;
+    background-color: #FF6060;
+    color: white !important;
+    border-radius: 10px;
+    height: 44px;
+    padding:20px 10px 0 20px ;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.Detail .articles ul,.Detail .articles p{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    height:120px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.Detail .listTag {
+    width: 50%;
+    padding:0;
+}
+.Detail .listTag li{
+    min-width:fit-content;
+    width:30%;
+    padding:5px 20px;
+    color: white ! important;
+    background-color: #FF6060;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.none {
+    display: none;
+    
+}
+@media screen and (max-width: 700px) { 
+    .Detail{margin: 5%;}
+    .tagStar{
+        flex-direction: column !important;
+    }
+    .listStar{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .authorProfile{
+            display: flex;
+    align-items: center;
+        top:35px;
+        right: 30px;
+    }
+    .authorProfile P{
+        margin-right:20px
+    }
+    .Detail .articles{
+        width:100%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+     .Detail article{
+        width:100%;
+    }
+     .Detail article h4{
+        display: flex;
+       padding: 0 10px 0 10px;
+        align-items: center;
+        height:30px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .Detail .articles ul,.Detail .articles p{
+        font-weight: 400;
+        font-size: 12px;
+        padding:20px 11.25px 20px 11.25px;
+        height: 90px;
+        overflow:auto;
+    }
+ .Detail{min-width:fit-content}
+}
+@media screen and (max-width: 550px) {
+   .Detail{margin : 5%}
+    .Detail img:first-child {
+        width: 100%;
+        height: 252px;
+        border-radius: 20px;
+    }
+   
+   
+}

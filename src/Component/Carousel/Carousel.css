@@ -1,0 +1,25 @@
+.Carousel{
+    position: relative;
+    height: 415px;
+    margin-bottom: 30px;
+}
+.Carousel img{
+    object-fit: fill;
+}
+.Carousel .left,.Carousel .right{
+    position: absolute;
+    top:45%;
+    color: aliceblue;
+}
+.Carousel .left{
+    left:5%;
+}
+.Carousel .right{
+    right: 5%;
+}
+@media screen and (max-width: 550px) {
+    .Carousel{
+        height: 255px;
+        margin-bottom: 10px;
+    }
+}

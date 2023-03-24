@@ -1,0 +1,25 @@
+
+.NotFound h1, .NotFound p, .NotFound .ReturnAccueilLink{
+    color: #FF6060;
+font-family: 'Montserrat';
+font-style: normal;
+}
+.NotFound h1{ 
+    margin:0 auto;
+    font-weight: 700;
+    font-size: 288px;
+}
+.NotFound p{
+    margin: 30px 0 50px 0;
+    font-weight: 500;
+    font-size: 36px;  
+}
+.NotFound .ReturnAccueilLink{
+    font-weight: 500;
+    font-size: 18px;
+}
+@media (max-width: 450px) {
+    .NotFound h1{font-size: 96px;}
+    .NotFound p{font-size: 18px}
+    .NotFound a{font-size: 14px;}
+}
